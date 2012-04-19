@@ -13,4 +13,6 @@ Gem::Specification.new do |gem|
   gem.name          = "omniauth-sapo-connect"
   gem.require_paths = ["lib"]
   gem.version       = Omniauth::SapoConnect::VERSION
+
+  gem.add_runtime_dependency 'omniauth-oauth', '~> 1.0.0'
 end
